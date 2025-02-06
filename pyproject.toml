@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_csd_mt"
+description = "CSD-MT is a method about 'Content-Style Decoupling for Unsupervised Makeup Transfer without Generating Pseudo Ground Truth', you can use it in comfyUI."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["torch", "torchvision", "numpy", "opencv-python", "imageio", "tensorboardX", "cmake #build for dlib", "boost #build for dlib", "dlib"]
+
+[project.urls]
+Repository = "https://github.com/smthemex/ComfyUI_CSD_MT"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "smthemex"
+DisplayName = "ComfyUI_CSD_MT"
+Icon = ""
