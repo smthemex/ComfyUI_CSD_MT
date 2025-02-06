@@ -26,17 +26,15 @@ pip install dlib-19.24.1-cp311-cp311-win_amd64.whl
 ```
 
 # 3.Model
-* 3.1 download 2 checkpoints (79999_iter.pth,CSD_MT.pth) from [google](https://drive.google.com/drive/folders/1pvSgkpsb7k6Ph1_oCmFkMQZPgL7PaTO0) or [baidu](https://pan.baidu.com/share/init?surl=C7K4xk5W0X65yUQh41AmfQ) password:1d3e.从百度云或者Google下载三个模型
+* 3.1 download 3 checkpoints (79999_iter.pth,CSD_MT.pth,lms.dat) from [google](https://drive.google.com/drive/folders/1pvSgkpsb7k6Ph1_oCmFkMQZPgL7PaTO0) or [baidu](https://pan.baidu.com/share/init?surl=C7K4xk5W0X65yUQh41AmfQ) password:1d3e.从百度云或者Google下载三个模型
 * 3.2 download 'resnet18-5c106cde.pth' from [here](https://download.pytorch.org/models/resnet18-5c106cde.pth) 从链接下载resnet18-5c106cde.pth模型，不要改名字.
 ```
 --  ComfyUI/models/CSDMT
     |-- 79999_iter.pth
     |-- CSD_MT.pth
     |--resnet18-5c106cde.pth #没有也会自动下载
-```
-```
 --  ComfyUI/custom_node/ComfyUI_CSD_MT/quick_start/faceutils/dlibutils
-    |--lms.dat  # Already in the project, no need to download,已内置在插件中,不用下载
+    |--lms.dat  
 ```
 
 # 4.Example
